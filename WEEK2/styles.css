@@ -1,0 +1,43 @@
+body{
+	background-color: #cfebff;
+	color: #ac76d5;
+	font-family: Times, Futura, sans-serif;
+	font-size: 30px;
+	font-weight: 150;
+	text-align: center;
+	padding: 100px;
+}
+
+main{
+background-color: #ffcff6;
+}
+
+main a {
+	color: white;
+	text-decoration: none;
+}
+
+main a:hover {
+	color: red;
+}
+
+img.detail {
+width: 600px;
+}
+
+#grid-container {
+  display: grid;
+  row-gap: 50px;
+}
+
+img.installation {
+width: 600px;
+}
+
+footer{
+background-color: #ff57a8;
+}
+
+footer h1{
+	font-size: 13px;
+}

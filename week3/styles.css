@@ -1,0 +1,62 @@
+/* <uniquifier>: Use a unique and descriptive class name*/
+/* <weight>: Use a value from 400 to 700*/
+
+
+body{
+	font-family: "kode Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	/* 400-700*/
+	font-style: normal;
+	color:#FFF;
+	background-image: url("file:///C:/Users/win/Desktop/MEDP285/week3/images/background2.jpg");
+/*background-repeat: no-repeat;*/
+background-attachment: fixed;
+}
+
+div {
+	text-align: center;
+}
+
+#wrapper{
+	background-color: #6c4831;
+	padding: 40px;
+	margin:100px;
+	border: solid 10px #d6c8ad;
+}
+
+nav {
+	background-color: #d6c8ad;
+	padding: 40px 10px 10px 10px;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: #9c2424;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+p a{
+	color: #db7070;
+}
+
+p span.school {
+	color: #000;
+}
+
+p{
+	color: #FFF;
+}
+
+img.large {
+	width:500px;
+}
+
+img.small {
+	height: 200px;
+	width: auto;
+}

@@ -1,0 +1,65 @@
+body {
+	background-color: lightpink;
+	padding: 0px;
+	margin: 0px;
+	/*font-family:;*/
+	background-image: url("file:///C:/Users/win/Desktop/MEDP285/week4/images/butterfly.avif");
+/*background-repeat: no-repeat;*/
+background-attachment: fixed;
+
+}
+
+#wrapper {
+	background-color: #FFF;
+	color: #78d0eb;
+	width: 80%;
+	margin: 0px auto 0px auto;
+	padding: 40px;
+	border: dotted 5px hotpink;
+}
+
+header {
+	background-color: #dd8ced;
+	text-align: center;
+	padding: 20px;
+	letter-spacing: 5px;
+	color: ghostwhite;
+	font-family: lucida handwriting;
+}
+
+header h1{
+	margin: 0px;
+}
+
+/*grouping */
+h1, h2, h3, h4, h5 {
+	margin: 0px;
+}
+
+nav {
+	background-color: #e5adf0;
+	text-align: center;
+	padding: 20px 10px 20px 10px;
+	/*top to bottom clockwise*/
+}
+
+nav a {
+	background-color: #e5adf0 ;
+	margin: 0px 20px;
+}
+
+main {
+	background-color: deeppink;
+}
+
+section {
+	background-color: pink;
+}
+
+article {
+	background-color: white;
+}
+
+footer {
+	background-color: hotpink;
+}

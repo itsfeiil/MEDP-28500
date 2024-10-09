@@ -1,0 +1,13 @@
+body{
+	background-color: #97ce7d;
+	color: #5e734e;
+}
+
+#wrapper {
+	background-color: #b1d697;
+	color: ##6e8a73;
+	width: 80%;
+	margin: 0px auto 0px auto;
+	padding: 40px;
+	border: dashed 5px #dbead2;
+}

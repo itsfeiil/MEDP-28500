@@ -1,0 +1,109 @@
+/* START border-box fix */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* END border-box fix */
+
+body{
+  padding:0;
+  margin:0;
+}
+
+div.container {
+  width:80%;
+  margin: 0px auto;
+}
+
+header{
+  background-color: #ba8cd4;
+}
+
+header, nav, main, aside, footer {
+  padding:10px;
+}
+
+nav{
+  background-color: #98e3ac;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+/* width: 100%;*/
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: #d5bbed;
+  padding:6px;
+  width:100px;
+  text-align: center;
+  border: solid 1px black;
+}
+
+main{
+  background-color: #d5bbed;
+  float: left;
+  width:70%;
+}
+
+main img.thumbnail{
+  float:left;
+  margin-right: 12px;
+}
+
+main div.description{
+  clear: both;
+  float: none;
+  margin-bottom: 40px;
+}
+
+aside{
+  background-color: #a0ebb4;
+  float:left;
+  width:30%;
+}
+
+footer{
+  background-color: #eec6f5;
+  float: none;
+  clear:both;
+}
+
+div.buttonAbsolute{
+  background-color: aliceblue;
+  position: absolute;
+  border-radius: 0px;
+  width: 100px;
+  height: 100px;
+  top: 0px;
+  right: 150px;
+  padding: 20px;
+  z-index: 2;
+  opacity: 0.5;
+}
+
+div.buttonAbsolute2{
+  background-color: aliceblue;
+  position: absolute;
+  border-radius: 0px;
+  width: 100px;
+  height: 50px;
+  top: 0px;
+  right: 270px;
+  padding: 20px;
+  z-index: 3;
+  opacity: 0.5;
+}
+
+div.buttonRelative{
+  background-color: #98e3ac;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  z-index: 3;
+  width: 100px;
+}

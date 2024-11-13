@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+	<title>JAVASCRIPT</title>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+	<div class="container">
+
+
+	<header>
+		<h1>JAVASCRIPT in html</h1>
+	</header>
+
+	<main>
+		<h1>CLICK ME IF YOU DARE</h1>
+
+		<p id="demo" style="display:none">Welcome to JavaScript!<br>Don't be afraid!<br>You will get a hang of it soon!</p>
+
+		<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me</button>
+	</main>
+
+	<nav>
+		<h2>JavaScript</h2>
+		<p>JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. </p>
+		<h2>What can it do?</h2>
+
+		<p id="demo">JavaScript can change html contents --> </p>
+
+		<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me</button>
+	</nav>
+
+	<aside>
+		<h2>First time with JavaScript</h2>
+		<p>JavaScript is versatile and beginner-friendly. With more experience, you'll be able to create games, animated 2D and 3D graphics, comprehensive database-driven apps, and much more! JavaScript itself is relatively compact, yet very flexible.</p>
+		<p>What's the time now?</p>
+		<button type="button"
+		onclick="document.getElementById('demo').innerHTML = Date()">
+		Click Me</button><p id="demo"></p>
+	</aside>
+
+
+	<footer>
+		<h2>Xiaofei Liu</h2>
+	</footer>
+
+</div>
+
+
+</body>
+</html> 

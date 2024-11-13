@@ -1,0 +1,62 @@
+/* START border-box fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* END border-box fix */
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: hotpink;
+}
+
+.container{
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container > *{
+  padding: 20px;
+}
+
+header{
+  background: lightblue;
+  grid-column: 1/13;
+  text-align: center;
+}
+
+main{
+  background: lightpink;
+  grid-column: 4/10;
+  text-align: center
+}
+
+nav{
+  background: aliceblue;
+  grid-column: 1/4;
+}
+
+aside{
+  background: aliceblue;
+  grid-column: 10/13;
+}
+
+main, nav, aside {
+  grid-row: 2/4;
+}
+
+footer{
+  background: lightblue;
+  grid-column: 1/13;
+  text-align: center
+}

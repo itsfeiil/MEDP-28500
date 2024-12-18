@@ -1,0 +1,57 @@
+#flippingPages{
+	height: 250px;
+	width: 400px;
+	background: white;
+	position: relative;
+	z-index: 2;
+	font-family: sans-serif;
+	font-weight: 200;
+	line-height: 220px;
+	color: #9b8177;
+	font-size: 50px;
+	overflow: visible;
+	padding-left: 100px;
+	/*transform*/
+	-webkit-transform: persepctive(800px) rotateX(45deg);
+	-moz-transform: persepctive(800px) rotateX(45deg);
+	-ms-transform: persepctive(800px) rotateX(45deg);
+	-o-transform: persepctive(800px) rotateX(45deg);
+	transform: persepctive(800px) rotateX(45deg);
+	/*transform-style*/
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+#FrontPage{
+	position: absolute;
+	width: 200px;
+	height: 250px;
+	line-height: 220px;
+	font-size: 50px;
+	text-indent: -100px;
+	background: white;
+	top: 0;
+	left: 200px;
+	/*transform-origin*/
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-ms-transform-origin: left center;
+	-o-transform-origin: left center;
+	transform-origin: left center;
+	overflow: hidden;
+	/*transform-visibility*/
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	/*animation*/
+	-webkit-animation: pageFlipFront 2s ease-in-infinite;
+	-moz-animation: pageFlipFront 2s ease-in-infinite;
+	-ms-animation: pageFlipFront 2s ease-in-infinite;
+	-o-animation: pageFlipFront 2s ease-in-infinite;
+	animation: pageFlipFront 2s ease-in-infinite;
+}
